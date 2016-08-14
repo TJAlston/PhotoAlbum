@@ -1,0 +1,100 @@
+/*Body*/
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px #00f0ff;
+  font-family: 'JohnHancock';
+  background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/Beautiful-Tropical-Beach-Wallpapers.jpg);
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+}
+
+.app h3 {
+  font-family: 'Great Vibes', cursive;
+}
+.sidebar {
+  display: flex;
+  columns: 4;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  font-family: 'brush script';
+  text-align: justify;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: teal;
+  border-radius: 10px;
+  border-color: turquoise;
+  background-color: white;
+  opacity: .75;
+  width: 15em;
+  height: 20px;
+  padding: 15px 15px 35px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/*Header*/
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: .75;
+  height: 15vh;
+  font-family: 'JohnHancock', cursive;
+  letter-spacing: 2px;
+  font-size: 90px;
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(31, 119, 119);
+  border-bottom: 3px solid white;
+  padding-bottom: 1px;
+}
+
+h2  {
+  height: 5vh;
+  border-bottom: 2px solid teal;
+  background-color: white;
+  margin-top: -3px;
+  font-size: 20px;
+  text-align: justify;
+  text-align: center;
+  font-family: 'JohnHancock', cursive;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+  font-size: 40px;
+  opacity: .75;
+  color: teal;
+}
+/*http://www.freewebheaders.com/wordpress/wp-content/gallery/other-backgrounds/purple-lonely-footie-header-design.jpg*/
+
+/*Photo Album Home*/
+.albums {
+  columns: 3;
+}
+
+img {
+  display: flex;
+  margin: 1em auto;
+  align-content: center;
+  border-radius: 10px;
+  margin-left: 60px;
+  height: 250px;
+  width: 300px;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+img textarea {
+  margin-left: 2em;
+}
