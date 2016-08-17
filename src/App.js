@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import './App.css'
 import Home from './Home'
-import Page from './Page'
+import Gallery from './Gallery'
 
 //think about code the way the page uploads.
 
@@ -13,28 +12,33 @@ class App extends Component {
       currentScreen: 'home'
     }
   }
-  navigateToPage = (src) => {
-    this.setState({currentScreen:scr})
+
+  navigateToPage = (screen, gallery, image) => {
+    this.setState({
+      currentScreen: screen,
+      currentGallery: gallery
+    })
   }
+
   render (){
     let screen
 
-    switch(this.state.currentScreen){
     //switch will let you switch between variable types.
     //when defining a variable put a space between the parenthesis when calling put it next to the word.
-    case 'home': screen = <Home navigate={this.state.navigateToPage} />
-    //  if its true break out and do something else
-      break
-    case 'page': screen = <Page navigate={this.state.navigateToPage} />
-      break
-    //defaults back to the home page in case their is an error
-    default: screen = <Home />
-    // similar to an if statment
-  }
+    switch(this.state.currentScreen) {
+      case 'gallery':
+        screen = <Gallery navigate={this.navigateToPage} index={this.state.currentGallery} />
+        break
+        //defaults back to the home page in case their is an error
+      case 'home':
+      default:
+      // similar to else in an if statment
+        screen = <Home navigate={this.navigateToPage} />
+    }
     return <div className='App'>
-    {/* screen is the alias of the home and page tags */}
+      {/* screen is the alias of the home and page tags */}
       {screen}
-      </div>
+    </div>
   }
 }
 export default App

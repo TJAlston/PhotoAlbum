@@ -1,16 +1,182 @@
 {
-  "tools": {
-    "JavaScript": {
-      "pronunciation": "ˈjä-vē-skript",
-      "description": "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification."
+  "galleries": [
+    {
+      "name": "Hotel Accomodations",
+      "description": "Beautiful Rooms with Enchanting Views",
+      "imageUrl": "http://www.sydneyhotelsaccommodation.com/images/RydgesPerth-SpaSuite1.jpg",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "http://www.sydneyhotelsaccommodation.com/images/RydgesPerth-SpaSuite1.jpg"
+        },
+        {
+          "name": "Photo2",
+          "url": "http://www.sydneyhotelsaccommodation.com/images/RydgesPerth-SpaSuite1.jpg"
+        },
+        {
+          "name": "Photo3",
+          "url": "http://www.sydneyhotelsaccommodation.com/images/RydgesPerth-SpaSuite2.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "http://www.pilgrimtours.sk/upload/hotel-kempinski-riverpark-bratislava-accommodation-in-slovakia-luxury-rooms-apartments/hotel-kempinski-riverpark-bratislava-accommodation-in-slovakia-luxury-rooms-apartments-en-big-Web_Kempinski-Hotel-River-Park-BratislavaDanube-Suitea.jpg"
+        },
+        {
+          "name": "Photo5",
+          "url": "http://www.vip.sk/images/uploads/Kempinski_Hotel_River_Park_Bratislava_Deluxe_Suite.jpg"
+        },
+        {
+          "name": "Photo6",
+          "url": "http://www.jtre.sk/sites/default/files/2_40.jpg"
+        }
+      ]
     },
-    "React": {
-      "pronunciation": "rē-ˈakt",
-      "description": "A JavaScript library for building user interfaces."
+    {
+      "name": "Wedding Events",
+      "description": "Make your Wedding Enchanting",
+      "imageUrl": "http://secondprintproductions.com/blog/wp-content/uploads/2011/03/chicago-blackstone-hotel-wedding-06.jpg",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "http://secondprintproductions.com/blog/wp-content/uploads/2011/03/chicago-blackstone-hotel-wedding-06.jpg"
+        },
+        {
+          "name": "Photo2",
+          "url": "https://www.omnihotels.com/-/media/images/hotels/houprk/weddings/houprk-omni-houston-hotel-regency-wedding-cream-.jpg?h=660&la=en&w=1170"
+        },
+        {
+          "name": "Photo3",
+          "url": "https://www.omnihotels.com/blog/wp-content/uploads/2015/12/pitdtn-omni-william-penn-hotel-wedding-ball-room-5-1.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "https://www.omnihotels.com/-/media/images/hotels/pitdtn/weddings/pitdtn-omni-william-penn-hotel-wedding-cake-1.jpg?h=660&la=en&w=1170"
+        },
+        {
+          "name": "Photo5",
+          "url": "https://getmetothechurchontime.files.wordpress.com/2013/02/hawaii-oceanfront-wedding-ceremony-four-seasons-maui-lawn.jpg"
+        },
+        {
+          "name": "Photo6",
+          "url": "https://www.barcelo.com/BarceloHotels/en_GB/Images/mayan-riviera-barcelo-hotels-wedding-altar21-10436.jpg"
+        }
+      ]
     },
-    "webpack": {
-      "pronunciation": "web-ˈpak",
-      "description": "webpack is a module bundler. This means webpack takes modules with dependencies and emits static assets representing those modules."
+    {
+      "name": "Restaurant Selections",
+      "description": "Enchanting meals for every occasion.",
+      "imageUrl": "http://www.hotel-r.net/im/hotel/de/food-hotel.jpg",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "http://www.hotel-r.net/im/hotel/de/food-hotel.jpg"
+        },
+        {
+          "name": "Photo2",
+          "url": "http://emergingkerala.dcbooks.com/wp-content/uploads/2015/11/All-Inclusive-Golden-Rock-Beach-Hotel-food.jpg"
+        },
+        {
+          "name": "Photo3",
+          "url": "http://www.pilgrimtours.sk/upload/hotel-kempinski-riverpark-bratislava-accommodation-in-slovakia-luxury-rooms-apartments/hotel-kempinski-riverpark-bratislava-accommodation-in-slovakia-luxury-rooms-apartments-en-big-Web_Kempinski-Hotel-River-Park-BratislavaDanube-Suitea.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "http://www.koreanahotel.com/2013_home/images/meeting/photo_img01.jpg"
+        },
+        {
+          "name": "Photo5",
+          "url": "http://www.lochnesshotel.com/assets/images/langoustines_large.jpg"
+        },
+        {
+          "name": "Photo6",
+          "url": "http://thebestofzambia.com/app/uploads/2014/10/intercontinental-hotel-restaurant-food-and-drink-1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "description": "Even more lovely things",
+      "imageUrl": "http://www.cerkezkoybusinesshotel.com/en/uploads/gallery/RKotq/27032012-OfzlH.jpg",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "http://www.cerkezkoybusinesshotel.com/en/uploads/gallery/RKotq/27032012-OfzlH.jpg"
+        },
+        {
+          "name": "Photo2",
+          "url": "http://eventshuttleservice.com/wp-content/uploads/2012/09/DSC_0831-1024x678.jpg"
+        },
+        {
+          "name": "Photo3",
+          "url": "https://wonh2c1401.files.wordpress.com/2015/01/cairns-arrival-transfer-airport-to-hotel-in-cairns-50435.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "http://www.rootedinrights.org/wordpress/wp-content/uploads/2015/11/wheelchair-van-300x200.jpg"
+        },
+        {
+          "name": "Photo5",
+          "url": "http://tablebay.suninternational.com/wp-content/uploads/2012/04/The-Table-Bay-Hotel-Shuttle-Service-lrz1.jpg"
+        },
+        {
+          "name": "Photo6",
+          "url": "https://wonh2c1401.files.wordpress.com/2015/01/limo_transport_daina_taxi___tours_jamaica.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Excursions",
+      "description": "Have an Enchanting time",
+      "imageUrl": "https://www.barcelo.com/BarceloHotels/en_US/Images/339-entertainment-4-hotel-barcelo-bavaro-beach54-163262.jpg",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "https://www.barcelo.com/BarceloHotels/en_US/Images/339-entertainment-4-hotel-barcelo-bavaro-beach54-163262.jpg"
+        },
+        {
+          "name": "Photo2",
+          "url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/25/12/2c/expeditions-excursions.jpg"
+        },
+        {
+          "name": "Photo3",
+          "url": "https://www.barcelo.com/BarceloHotels/en_GB/Images/94-swimming-pool-hotel-barcelo-langosta-beach21-118765.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "http://southbaybeachclub.com/wp-content/uploads/2015/07/3CaymanIsland_divers_mermaid_CathyChurch640.jpg"
+        },
+        {
+          "name": "Photo5",
+          "url": "https://www.barcelo.com/BarceloHotels/en_GB/Images/activities-5-hotel-barcelo-bavaro-resort21-74115.jpg"
+        },
+        {
+          "name": "Photo6",
+          "url": "http://www.cancunplayatours.com/images/tours/adventure-tours/jungla_maya-big-1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Meeting Room",
+      "description": "Even more lovely things",
+      "imageUrl": "https://www.omnihotels.com/-/media/images/hotels/daldtn/meetings/daldtn-omni-dallas-hotel-bishop-arts-boardroom.jpg?h=660&la=en&w=1170",
+      "photos": [
+        {
+          "name": "Photo1",
+          "url": "https://www.omnihotels.com/-/media/images/hotels/daldtn/meetings/daldtn-omni-dallas-hotel-bishop-arts-boardroom.jpg?h=660&la=en&w=1170"
+        },
+        {
+          "name": "Photo2",
+          "url": "http://static1.squarespace.com/static/55269e60e4b0465eeb07b0a3/t/56fd30658259b5ed81daf61b/1459448949362/?format=1500w"
+        },
+        {
+          "name": "Photo3",
+          "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/ba/5b/19/conference-room.jpg"
+        },
+        {
+          "name": "Photo4",
+          "url": "http://www.tnetnoc.com/hotelphotos/005/37005/2631759-Omni-Austin-Hotel-Meeting-Room-2-DEF.jpg"
+        }
+      ]
     }
-  }
+  ]
 }
