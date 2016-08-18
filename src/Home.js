@@ -27,7 +27,7 @@ class Home extends Component {
       />
     })
 
-    return <div className= 'Home'>
+    return <div className='Home'>
       <header>
         <h1><u>Enchanting Hotels</u></h1>
         <h2><u>Photo Gallery</u></h2>

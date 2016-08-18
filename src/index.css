@@ -9,6 +9,7 @@ body {
   font-family: 'JohnHancock';
   background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/Beautiful-Tropical-Beach-Wallpapers.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 .app {
@@ -29,7 +30,7 @@ body {
   justify-content: center;
   font-family: 'brush script';
   text-align: justify;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-top: 30px;
   color: teal;
   border-radius: 10px;
@@ -67,7 +68,7 @@ h2  {
   border-bottom: 2px solid teal;
   background-color: white;
   margin-top: -3px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   text-align: center;
   font-family: 'JohnHancock', cursive;
@@ -89,8 +90,8 @@ img {
   align-content: center;
   border-radius: 10px;
   margin-left: 60px;
-  height: 225px;
-  width: 300px;
+  height: 200px;
+  width: 275px;
   border: 3px solid white;
   margin-bottom: 10px;
 }
@@ -101,7 +102,12 @@ img textarea {
 footer {
   font-family: 'brush script';
   border-top: 2px solid white;
+  text-align: center;
   word-spacing: 2en;
-  height: 20px;
+  background-color: white;
+  opacity: .75;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 
 }

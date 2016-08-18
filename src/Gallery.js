@@ -18,10 +18,18 @@ class Gallery extends Component {
   }
 
   render () {
+    // const album = data.galleries.map((gallery, index) => {
+    //   return <Gallery
+    //     key={index} name={gallery.name}
+    //     navigate={this.navigateTo.bind(this, index)}
+    //     photos={gallery.photos.url}
+    //   />
+    // })
+
     return <div className= 'Page'>
       <h1 onClick={this.goHome}>{this.gallery.name}</h1>
-      <p>{this.gallery.description}</p>
-      <img src={this.gallery.imageUrl} />
+      <h2>{this.gallery.description}</h2>
+      <img src={this.gallery.imageUrl}/>
 
       {/* instead render an array of <Picture> for this.galleries.photos */}
       {/* <Picture navigate={this.navigateToHome} /> */}
